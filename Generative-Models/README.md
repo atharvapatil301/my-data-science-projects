@@ -1,0 +1,4 @@
+# Solving the 'Cold-Start' Problem for Retail Image Classifiers using Adversarial Learning"
+### Aug 29, 2024
+
+Analyzed MNIST and Fashion-MNIST datasets to address the 'cold-start' problem in computer vision by engineering a generative pipeline for synthetic data augmentation. Developed and optimized a Generative Adversarial Network (GAN) using PyTorch, implementing LeakyReLU activations and dropout layers to stabilize the adversarial training process and reach a Nash Equilibrium. Successfully synthesized high-fidelity samples that outperformed traditional Autoencoder reconstructions in visual sharpness, providing a scalable solution for training robust classifiers in data-scarce environments.
